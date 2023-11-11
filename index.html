@@ -4,92 +4,131 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Janit Portfolio</title>
+  <title>JS Lover Jaipur Portfolio</title>
 
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      margin-top: 100px;
+    }
+  </style>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() {dataLayer.push(arguments);}
     gtag('js', new Date());
-
-    gtag('config', 'G-08RWC5CHBM');
+    // TODO: Please change the Google Analytics ID
+    gtag('config', 'G-1JZ2ZSYTPK');
   </script>
+
+  <script>
+    ! function (t, e) {
+      var o, n, p, r;
+      e.__SV || (window.posthog = e, e._i = [], e.init = function (i, s, a) {
+        function g(t, e) {
+          var o = e.split(".");
+          2 == o.length && (t = t[o[0]], e = o[1]), t[e] = function () {
+            t.push([e].concat(Array.prototype.slice.call(arguments, 0)))
+          }
+        } (p = t.createElement("script")).type = "text/javascript", p.async = !0, p.src = s.api_host +
+          "/static/array.js", (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(p, r);
+        var u = e;
+        for (void 0 !== a ? u = e[a] = [] : a = "posthog", u.people = u.people || [], u.toString =
+          function (t) {
+            var e = "posthog";
+            return "posthog" !== a && (e += "." + a), t || (e += " (stub)"), e
+          }, u.people.toString = function () {
+            return u.toString(1) + ".people (stub)"
+          }, o =
+          "capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys"
+            .split(" "), n = 0; n < o.length; n++) g(u, o[n]);
+        e._i.push([i, s, a])
+      }, e.__SV = 1)
+    }(document, window.posthog || []);
+    // TODO: Please add your posthog ID
+    posthog.init('phc_gv88ZtyYtVvQYDQexT1FI8GQT3mV9PdybjrzL6ju9cr', {
+      api_host: 'https://app.posthog.com'
+    })
+  </script>
+
 </head>
 
 <body>
-  <header class="bg-danger text-light fixed-top">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-4">
-          <h1 class="logo">janit</h1>
+  <header class="text-white fixed-top">
+    <div class="row">
+      <nav class="navbar navbar-expand-lg navbar-light bg-danger ">
+        <div class="col-2 ps-3">
+          <a class="navbar-brand text-white" href="#">JS Lover Jaipur</a>
         </div>
-        <div class="col-sm-8">
-          <nav class="navbar  navbar-expand-md navbar-dark">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse text-right" id="navbarNav">
-              <ul class="navbar-nav ml-auto text-right">
-                <li class="nav-item">
-                  <a class="nav-link" href="#aboutme">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#education">Education</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#projects">Projects</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#gallary">Gallery</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" target="_blank"
-                    href="https://www.notion.so/57c11c67fb0146d99b40c603f778e15c?v=fb74e98393cc4fa6927dc8d6c59cf1e5&pvs=4">Books</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" target="_blank" href="https://dev.to/janityadav16">Blog</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+        <div class="col-10 ">
+          <button class="navbar-toggler text-white " type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon text-white justify-content-end pe-3"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-white justify-content-end pe-3" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto text-center">
+              <li class="nav-item ">
+                <a class="nav-link text-white" href="#aboutme">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#education">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#experience">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#certificate">Certificate</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#confrenses">Confrenses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#gallary">Gallery</a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
+    </div>
   </header>
 
   <section class="banner text-center py-5" style="margin-top: 30px;">
     <h1>
-      <span>JANIT</span>
-      <span class="red bounce-word text-danger">YADAV</span>
+      <span>JS Lover</span>
+      <span class="red bounce-word text-danger">Jaipur</span>
     </h1>
     <p>
       <b>JAIPUR, INDIA</b>
     </p>
     <div class="social-links">
-      <a target="_blank" href="https://github.com/janityadav16" class="text-decoration-none py-3">
+      <a target="_blank" href="#" class="text-decoration-none py-3">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-github"
           viewBox="0 0 16 16">
           <path
             d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
         </svg>
       </a>
-      <a target="_blank" href="https://twitter.com/janityadav16" class="text-decoration-none py-3"><svg
-          xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-twitter"
-          viewBox="0 0 16 16">
+      <a target="_blank" href="#" class="text-decoration-none py-3"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+          height="16" fill="black" class="bi bi-twitter" viewBox="0 0 16 16">
           <path
             d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
           <a href="https://twitter.com/janityadav16">
         </svg></a>
-      <a target="_blank" href="https://www.linkedin.com/in/janit-yadav-461140279/" class="text-decoration-none py-3">
+      <a target="_blank" href="#" class="text-decoration-none py-3">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-linkedin"
           viewBox="0 0 16 16">
           <path
             d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
         </svg>
       </a>
-      <a target="_blank" href="https://www.instagram.com/janit_16/" class="text-decoration-none py-3">
+      <a target="_blank" href="#" class="text-decoration-none py-3">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-instagram"
           viewBox="0 0 16 16">
           <path
@@ -98,28 +137,26 @@
       </a>
     </div>
     <div class="action-section mt-4">
-      <a class="btn btn-danger" target="_blank"
-        href="https://docs.google.com/document/d/13b6iPazhttGOtkafBsdl4j-ncAYKRk4MAlOB2K3k_ks/edit?usp=sharing"
-        download>Download Resume</a>
+      <a class="btn btn-danger" target="_blank" href="#" download>Download Resume</a>
     </div>
   </section>
 
 
 
-  <section class="about-section bg-light py-5" id="aboutme">
+  <section class="about-section bg-light" id="aboutme">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2 class="text-center">About Us</h2>
+          <h2 class="text-center pt-4 pb-5">About Me</h2>
           <p class="text-justify" style="font-size: 18px; font-weight: 600;">
-            Welcome to my profile! I am a passionate individual i loves exploring new places
-            and am enthusiastic about the world of web development.I am Currently pursuing a Bachelor's degree in
-            Computer Applications (BCA) at Manipal University, Jaipur, I am diving deep into the realm of
-            HTML and CSS, honing my skills in building beautiful and interactive websites. </br>
-            <br> I am fascination with technology extends beyond coding languages. I have a particular
-            fondness for macOS, appreciating its user-friendly interface and seamless integration with creative
-            tools. Inspired by the possibilities that JavaScript offers in terms of dynamic web development, i
-            aspires to broaden my knowledge and expertise in this powerful programming language.
+            Welcome to my profile! I am a passionate individual i loves exploring new places and am enthusiastic about
+            the world of web development.I am Currently pursuing a Bachelor's degree in Computer Science & Engineering
+            (Btec) at JECRC College, Jaipur, I am diving deep into the realm of HTML and CSS, honing my skills in
+            building beautiful and interactive websites. </br>
+            <br> I am fascination with technology extends beyond coding languages. I have a particular fondness for
+            macOS, appreciating its user-friendly interface and seamless integration with creative tools. Inspired by
+            the possibilities that JavaScript offers in terms of dynamic web development, i aspires to broaden my
+            knowledge and expertise in this powerful programming language.
 
           </p>
         </div>
@@ -130,13 +167,25 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2 class="text-center">Education</h2>
+          <h2 class="text-center pt-4 pb-5">Education</h2>
           <p class="text-decoration-none"><a href="https://jaipur.manipal.edu/"
-              style="color: red; text-decoration: none;">Mainpal university,Jaipur</a></p>
-          <p>Year: 2023-2026|BCA</p>
-          <p class="text-decoration-none"><a href="https://tpsbehror.co.in/"
-              style="color: red; text-decoration: none;">Takshila Public school,Behror</a></p>
-          <p>Year: 2023-2026|BCA</p>
+              style="color: red; text-decoration: none;">JECRC College, Jaipur</a></p>
+          <p>Year: 2023-2027 | BTech</p>
+          <p class="text-decoration-none"><a href="https://schools.org.in/alwar/08060414274/axis-academy-khairthal.html"
+              style="color: red; text-decoration: none;">Axis Academy Khairthal, Alwar</a></p>
+          <p>Year: 2023 | RBSE</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="education-section " id="experience">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="text-center pt-4 pb-5">Experience</h2>
+          <p class="text-decoration-none"><a href="https://github.com/JSLoversJaipur"
+              style="color: red; text-decoration: none;">JS Lover Jaipur</a></p>
+          <p>Year: 2023 | Building Community</p>
         </div>
       </div>
     </div>
@@ -146,33 +195,34 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2 class="text-center">certificate</h2>
+          <h2 class="text-center pt-4 pb-5">Certificate</h2>
           <p class="text-decoration-none"><a
-              href="https://www.freecodecamp.org/certification/fcc5a0561e9-f322-41e2-a1ae-d62a3530a1ca/responsive-web-design"
+              href="https://www.freecodecamp.org/certification/nakul1710/responsive-web-design"
               style="color: red; text-decoration: none;">Responsive web Designing,Free code camp</a></p>
           <p>Year: 2023</p>
-          <p class="text-decoration-none"><a
-              href="https://www.coursera.org/learn/html-and-css-in-depth/home/week/3?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta"
-              style="color: red; text-decoration: none;">HTML & CSS in Depth,META</a></p>
-          <p>Year: 2023</p>
+
         </div>
       </div>
     </div>
   </section>
 
-  <section class="certificate-section" id="certificate">
+  <section class="certificate-section" id="projects">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2 class="text-center">Projects</h2>
+          <h2 class="text-center pt-4 pb-5">Projects</h2>
 
           <p class="text-decoration-none"><a href="https://booksbuddy.co.in/"
               style="color: red; text-decoration: none;">Books Buddy</a></p>
           <p>Technologies: HTML, CSS & Git</p>
 
           <p class="text-decoration-none"><a href="https://github.com/JSLoversJaipur/javascript-101"
-              style="color: red; text-decoration: none;">JS 101</a></p>
-          <p>Technologies: JS</p>
+              style="color: red; text-decoration: none;">JS Notes</a></p>
+          <p>Technologies: JS & Git</p>
+
+          <p class="text-decoration-none"><a href="https://github.com/JSLoversJaipur/javascript-101"
+              style="color: red; text-decoration: none;">HTML+CSS+Bootstrap Notes</a></p>
+          <p>Technologies: HTML, CSS, Bootstrap & Git</p>
 
           <p class="text-decoration-none"><a href="https://github.com/JSLoversJaipur/portfolio"
               style="color: red; text-decoration: none;">Portfolio</a></p>
@@ -181,11 +231,11 @@
       </div>
     </div>
   </section>
-  <section class="certificate-section" id="certificate">
+  <section class="certificate-section" id="confrenses">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2 class="text-center">Confrenses and meetups</h2>
+          <h2 class="text-center pt-4 pb-5">Confrenses & Meetups</h2>
 
           <p class="text-decoration-none"><a href="https://awsugjaipur.in/"
               style="color: red; text-decoration: none;">AWS COMMUNITY DAY RAJASTHAN</a></p>
@@ -200,20 +250,20 @@
   <section>
     <h2 class="text-center m-5"></h2>
     <p class="text-left"><a href="https://awsugjaipur.in/" style="color: red; text-decoration: none; "> </a></p>
-    <h2 class="text-center">GitHub Contributions</h2>
+    <h2 class="text-center pt-4 pb-5">GitHub Contributions</h2>
     <div class="text-center py-5">
       <a href="https://github.com/janityadav16">
-        <img src="https://ghchart.rshah.org/janityadav16" alt="2016rshah's Github chart" /></a>
+        <img src="https://ghchart.rshah.org/nakul1710" alt="2016rshah's Github chart" width="100%" /></a>
     </div>
 
   </section>
 
 
-  <section class="gallery-section bg-light py-3" id="gallery">
+  <section class="gallery-section bg-light py-3" id="gallary">
     <div class="container">
       <div class="row">
         <div>
-          <h2 class="text-center">Gallery</h2>
+          <h2 class="text-center pt-4 pb-5">Gallery</h2>
           <div class="row">
             <div class="col-md-4 mb-4">
               <img src="./img/1.png" alt="image-1" class=" img-fluid rounded border">
@@ -240,13 +290,13 @@
   </section>
   <footer>
     <div class="bg-dark py-2">
-      <p class="text-center text-light">&copy; 2023 Janit Yadav. All rights reserved.</p>
+      <p class="text-center text-light">&copy; 2023 JS Lover Jaipur. All rights reserved.</p>
     </div>
   </footer>
   </main>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
   <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
-    data-id="janityadav16" data-description="Support me on Buy me a coffee!" data-message="" data-color="#FF5F5F"
+    data-id="nakulyadav" data-description="Support me on Buy me a coffee!" data-message="" data-color="#FF5F5F"
     data-position="Right" data-x_margin="18" data-y_margin="18"></script>
 </body>
 
