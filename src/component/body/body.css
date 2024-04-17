@@ -1,0 +1,68 @@
+.name{
+    text-align: center;
+    
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.name h1{
+   font-size: 70px;
+}
+.jumbotron h2{
+   text-align: center ;
+}
+
+
+
+
+
+.social-links a {
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 30px;
+}
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    text-align: center;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+}
+.project{
+    margin-top: 100px;
+    
+}
+.pro-img img{
+ display: flex;
+ justify-content: center;
+
+}
+.pro-img{
+   display: flex;
+   justify-content: center;
+}
+
+.project .jumbotron h2{
+    text-align: center;
+}
+
+
+ .jumbotron img{
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+   
+}
+.gallery h2{
+    text-align: center;
+}
+.gallery-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.gallery-item {
+    overflow: hidden;
+    padding: 0 5px 0 5px;
+}
