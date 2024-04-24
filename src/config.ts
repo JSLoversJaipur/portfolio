@@ -1,70 +1,70 @@
 const config = {
     information: {
-      firstname: "Nakul",
-      lastname: "Yadav",
-      city: "Khairthal",
+      firstname: "Harry",
+      lastname: "Potter",
+      city: "London",
       twitter: "",
       linkedin: "",
-      github: "nakul1710",
+      github: "",
       instagram: "",
       img: "",
       resume: "https://docs.google.com/document/d/1q6FLUyariocsbcR3ep05TSDtRScrBU8CZjanbTW6P3Y/edit?usp=sharing",
     },
     education: 
       [{
-        name: "jecrc",
-        url: "https://jaipur.manipal.edu/",
-        discription: "Year: 2023-2027 | BTech"
+        name: "Hokwards",
+        url: "https://www.wizardingworld.com/",
+        discription: "Year: 2000-2011 |Dark magic"
      },{
-       name: "Axis Academy Khairthal, Alwar",
-       url: "https://schools.org.in/alwar/08060414274/axis-academy-khairthal.html",
-       discription: "Year: 2023 | RBSE"
+       name: "Hogwarts House",
+       url: "https://www.wizardingworld.com/",
+       discription: "Year: 2011 "
     },
     
    ],
-   discription: "Welcome to my profile! I am a passionate individual i loves exploring new placesand am enthusiastic about the world of web development.I am Currently pursuing a Bachelor's degreein Computer Science & Engineering (Btec) at JECRC College, Jaipur, I am diving deep into the realm of HTML and CSS, honing my skills in building beautiful and interactive websites. I am fascination with technology extends beyond coding languages. I have a particular fondness for macOS, appreciating its user-friendly interface and seamless integration with creative tools. Inspired by the possibilities that JavaScript offers in terms of dynamic web development, i aspires to broaden my knowledge and expertise in this powerful programming language.",
+   discription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   
    certificate: 
       [{
-        name: "Responsive Web Designing, Freecodecamp",
-        url: "https://www.freecodecamp.org/certification/nakul1710/responsive-web-design",
-        discription: "Year: 2023"
+        name: "dark magic",
+        url: "https://www.wizardingworld.com/",
+        discription: "Year: 2005"
      }
    ],
    confrenses: [{
-    name: "AWS COMMUNITY DAY RAJASTHAN",
-    url: "https://awsugjaipur.in/",
-    discription: "Year: 2023"
+    name: "Dark world community",
+    url: "https://www.wizardingworld.com/",
+    discription: "Year: 2000"
   }
   ],
   project: [{
-    name: "Books Buddy",
-    url: "https://booksbuddy.co.in/",
-    discription: "Technologies: HTML, CSS & Git"
+    name: "Wizard",
+    url: "https://www.wizardingworld.com/",
+    discription: "Playing to ply"
   },
   {
-    name: "JS Notes",
-    url: "https://github.com/JSLoversJaipur/javascript-101",
-    discription: "Technologies: JS & Git"
+    name: "Harry",
+    url: "https://www.wizardingworld.com/",
+    discription: "use of wizards Stick"
   },
   {
-    name: "HTML+CSS+Bootstrap Notes",
-    url: "https://github.com/JSLoversJaipur/javascript-101",
-    discription: "Technologies: HTML, CSS, Bootstrap & Git"
+    name: "Weshly",
+    url: "https://www.wizardingworld.com/",
+    discription: "Such an idiot"
   },
   {
-    name: "Portfolio",
-    url: "https://github.com/JSLoversJaipur/portfolio",
-    discription: "Technologies: HTML, CSS, JS, Google Analytics, Posthog & Git"
+    name: "Harry potter",
+    url: "https://www.wizardingworld.com/",
+    discription: "London,UK"
   },
   ],
   gallery: [
-    "/img/8.jpeg",
-    "/img/8.jpeg",
-    "/img/8.jpeg",
-    "/img/8.jpeg",
-    "/img/8.jpeg",
-    "/img/8.jpeg"
+    "/img/h1.jpg",
+    "/img/h2.jpg",
+    "/img/h4.jpg",
+    "/img/h3.jpg",
+    "/img/h2.jpg",
+    "/img/h1.jpg"
   ]
   
   }
