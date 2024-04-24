@@ -34,7 +34,7 @@ const config = {
    confrenses: [{
     name: "Dark world community",
     url: "https://www.wizardingworld.com/",
-    discription: "Year: 2000"
+    discription: "Year: 2001"
   }
   ],
   project: [{
